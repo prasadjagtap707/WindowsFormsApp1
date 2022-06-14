@@ -87,6 +87,7 @@ namespace WindowsFormsApp1
             this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "Employee ID";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -96,6 +97,7 @@ namespace WindowsFormsApp1
             this.label2.Size = new System.Drawing.Size(84, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "Employee Name";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -105,6 +107,7 @@ namespace WindowsFormsApp1
             this.label3.Size = new System.Drawing.Size(45, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "Address";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -114,6 +117,7 @@ namespace WindowsFormsApp1
             this.label4.Size = new System.Drawing.Size(36, 13);
             this.label4.TabIndex = 7;
             this.label4.Text = "Salary";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtEmpID
             // 
@@ -121,6 +125,7 @@ namespace WindowsFormsApp1
             this.txtEmpID.Name = "txtEmpID";
             this.txtEmpID.Size = new System.Drawing.Size(100, 20);
             this.txtEmpID.TabIndex = 8;
+            this.txtEmpID.TextChanged += new System.EventHandler(this.txtEmpID_TextChanged);
             // 
             // txtEName
             // 
@@ -128,6 +133,7 @@ namespace WindowsFormsApp1
             this.txtEName.Name = "txtEName";
             this.txtEName.Size = new System.Drawing.Size(100, 20);
             this.txtEName.TabIndex = 9;
+            this.txtEName.TextChanged += new System.EventHandler(this.txtEName_TextChanged);
             // 
             // txtAddress
             // 
@@ -135,6 +141,7 @@ namespace WindowsFormsApp1
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(100, 20);
             this.txtAddress.TabIndex = 10;
+            this.txtAddress.TextChanged += new System.EventHandler(this.txtAddress_TextChanged);
             // 
             // txtsalary
             // 
@@ -142,6 +149,7 @@ namespace WindowsFormsApp1
             this.txtsalary.Name = "txtsalary";
             this.txtsalary.Size = new System.Drawing.Size(100, 20);
             this.txtsalary.TabIndex = 11;
+            this.txtsalary.TextChanged += new System.EventHandler(this.txtsalary_TextChanged);
             // 
             // btnUpdate
             // 
@@ -160,6 +168,7 @@ namespace WindowsFormsApp1
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(240, 150);
             this.dataGridView1.TabIndex = 13;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // btnAllEmp
             // 
@@ -177,6 +186,7 @@ namespace WindowsFormsApp1
             this.textContact.Name = "textContact";
             this.textContact.Size = new System.Drawing.Size(100, 20);
             this.textContact.TabIndex = 15;
+            this.textContact.TextChanged += new System.EventHandler(this.textContact_TextChanged);
             // 
             // label5
             // 
@@ -186,6 +196,7 @@ namespace WindowsFormsApp1
             this.label5.Size = new System.Drawing.Size(44, 13);
             this.label5.TabIndex = 16;
             this.label5.Text = "Contact";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // btnClear
             // 
